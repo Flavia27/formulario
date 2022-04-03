@@ -12,7 +12,7 @@
             <form action="cadastro.html" method = "POST">
                 <label for="fname">Nome:</label>
                 <input type="text" id="fname" name="name">
-                <label for="fname">Senha:</label>
+                <label for="fname">CPF:</label>
                 <input type="text" id="fCPF" name="CPF"><br><br>
                 <label for="fname">Logradouro:</label>
                 <input type="text" id="flogradouro" name="logradouro">
@@ -35,7 +35,9 @@
                 <label for="Defeito">Relate o Defeito do Seu Aparelho:</label><br>
                 <textarea name="message" rows="10" cols="30">
                 </textarea><br>
-                <input type="submit" value="Enter">
+                <label for="foto"> Escolha uma foto do seu Aparelho: </label>
+                <input type="file" name="arquivos" class="btn btn-success" multiple/><br><br>
+               <center> <input type="submit" value="Enter"> </center>            
             </form>
 </body>
 </html>
