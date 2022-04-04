@@ -1,2 +1,2 @@
 # formulario
-Formulario Criado na aula de Tec Web
+Formulario Criado utilizando somente HTML na aula de Tec Web
